@@ -2,7 +2,7 @@ import { IRef } from "./MainInfo";
 
 const Tools = ({isRef} :IRef) => {
   return (
-    <section ref={isRef} className="flex gap-10 flex-col items-start">
+    <section ref={isRef} className="flex gap-10 flex-col items-start mb-12">
       <div>
         <h2 className="scroll-m-20 font-bold tracking-tight h2-calc  max-md:text-center">
           PREMIUM <span className="text-[#343334]">TOOLS</span>
@@ -66,14 +66,14 @@ const Tools = ({isRef} :IRef) => {
         <div className="items-center gap-5 flex bg-transparent hover:bg-[rgba(255,255,255,0.03)] rounded-xl p-4">
           <img
             className="w-10 h-10 object-cover rounded"
-            src="https://velog.velcdn.com/images/kozel/post/7b31d658-7856-4138-ab90-ef866a4c27a5/image.png"
+            src="https://cdn.brandfetch.io/id2alue-rx/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1714556222178"
             alt=""
           />
           <div className="flex flex-col justify-center items-start gap-1">
             <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
-              JavaScript
+              Next.js
             </h3>
-            <p className="text-sm text-muted-foreground">Scripting Language</p>
+            <p className="text-sm text-muted-foreground">Framework</p>
           </div>
         </div>
         <div className="items-center gap-5 flex bg-transparent hover:bg-[rgba(255,255,255,0.03)] rounded-xl p-4">

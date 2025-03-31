@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --repo https://github.com/lesaiond/portfolio.git "
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.1",

@@ -3,8 +3,10 @@ import { Button } from "./ui/button";
 import { IRef } from "./MainInfo";
 import { useScrollToElement } from "@/state/scrollToElement";
 
-const Hero = ({isRef} :IRef) => {
-  const updateElementName = useScrollToElement((state) => state.updateElementName)
+const Hero = ({ isRef }: IRef) => {
+  const updateElementName = useScrollToElement(
+    (state) => state.updateElementName
+  );
 
   return (
     <section ref={isRef} className="flex gap-10 flex-col max-md:text-center">
@@ -20,7 +22,7 @@ const Hero = ({isRef} :IRef) => {
       <div className="flex gap-5 max-md:justify-center">
         <div className="basis-28">
           <div className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-5xl">
-            +10
+            +12
           </div>
           <div className="text-muted-foreground font-semibold">
             MONTH OF EXPERIENCE
@@ -28,7 +30,7 @@ const Hero = ({isRef} :IRef) => {
         </div>
         <div className="basis-28">
           <div className="scroll-m-20 text-6xl font-bold tracking-tight lg:text-5xl">
-            +12
+            +6
           </div>
           <div className="text-muted-foreground font-semibold">
             PROJECTS COMPLETED
@@ -50,7 +52,10 @@ const Hero = ({isRef} :IRef) => {
             FRONTEND DEVELOPER, MOTION DESIGN
           </p>
 
-          <Button onClick={() => updateElementName("experience")} className="self-end grow ">
+          <Button
+            onClick={() => updateElementName("experience")}
+            className="self-end grow "
+          >
             <CircleChevronRight className="text-white rounded-[50%] hover:bg-white hover:text-primary" />
           </Button>
         </div>
@@ -59,7 +64,11 @@ const Hero = ({isRef} :IRef) => {
           <p className=" leading-7 font-semibold text-2xl">
             TAILWIND CSS, REDUX, ZUSTAND, REACT
           </p>
-          <Button onClick={() => updateElementName("tools")} className="grow self-end" variant="secondary">
+          <Button
+            onClick={() => updateElementName("tools")}
+            className="grow self-end"
+            variant="secondary"
+          >
             <CircleChevronRight className="text-black rounded-[50%] hover:bg-black hover:text-secondary" />
           </Button>
         </div>

@@ -7,8 +7,7 @@ const BasicInfo = () => {
       <div className="basic-info fixed  max-md:static m-auto top-[6vw] py-7 px-14 rounded-xl bg-neutral-50 flex flex-col items-center gap-6 w-[344px] max-xl:px-5 max-xl:py-7 max-md:w-[95vw]">
         <img
           className="w-72 h-72 rounded-xl object-cover max-md:object-cover max-md:h-80 "
-          // src="https://framerusercontent.com/images/w2hyXovpoCcfHZkjR4Hmr53RA5o.jpg?scale-down-to=2048"
-          src="../../../public/resume_photo.png"
+          src="./resume_photo.png"
           alt=""
         />
         <h2 className="text-primary-foreground scroll-m-20 text-3xl text-center font-extrabold tracking-tight">

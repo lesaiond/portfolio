@@ -1,15 +1,18 @@
 import { IRef } from "./MainInfo";
 
-const Experience = ({isRef} :IRef) => {
+const Experience = ({ isRef }: IRef) => {
   return (
     <section ref={isRef} className="flex gap-10 flex-col items-start">
       <h2 className="scroll-m-20 font-bold tracking-tight h2-calc  max-md:text-center">
-        10 MONTH OF <span className="text-[#343334]">EXPERIENCE</span>
+        12 MONTH OF <span className="text-[#343334]">EXPERIENCE</span>
       </h2>
       <div className="flex flex-col w-full max-md:items-center">
-        <div className="bg-transparent hover:bg-[rgba(255,255,255,0.03)] rounded-xl p-4">
+        {/* <a
+          href="https://easyprzeprowadzki.pl/"
+          className="bg-transparent hover:bg-[rgba(255,255,255,0.03)] rounded-xl p-4"
+        >
           <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
-            Kwork Studios
+            Easy przeprowadzki
           </h4>
           <p className="leading-7 text-muted-foreground [&:not(:first-child)]:mt-6">
             Designed and customized pages, including validation and form
@@ -17,24 +20,29 @@ const Experience = ({isRef} :IRef) => {
             systems and hosted web solutions for clients.
           </p>
           <p className="leading-7 text-muted-foreground [&:not(:first-child)]:mt-6">
-            Jan 2024 - Fev
+            Jan 2025 - Fev 2025
           </p>
-        </div>
-        <div className="bg-transparent hover:bg-[rgba(255,255,255,0.03)] rounded-xl p-4">
+        </a> */}
+        <a
+          href="https://subix.uz"
+          className="bg-transparent hover:bg-[rgba(255,255,255,0.03)] rounded-xl p-4"
+        >
           <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
-            Tehnikum coding
+            SUBIX TEAM
           </h4>
           <p className="leading-7 text-muted-foreground [&:not(:first-child)]:mt-6">
-            Mastered the full cycle of frontend development, including HTML,
-            CSS, adaptive layout with Figma, JavaScript, React, Redux,
-            TypeScript and Docker. Developed several web sites and the final
-            project - a freelance platform, receiving the highest grade at the
-            diploma defense.
+            Developed a full-featured marketplace platform including user
+            registration, listing creation, purchase history tracking, and
+            personalized profile pages. Led implementation of responsive UI/UX
+            design with attention to detail and accessibility. Integrated SEO
+            optimization best practices to boost discoverability and indexing
+            performance. Worked on dynamic routing, state management, and API
+            handling to ensure smooth and scalable functionality.
           </p>
           <p className="leading-7 text-muted-foreground [&:not(:first-child)]:mt-6">
-            Aug 2023 - Fev 2024
+            Nov 2024 - Apr
           </p>
-        </div>
+        </a>
       </div>
     </section>
   );
